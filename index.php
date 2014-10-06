@@ -64,7 +64,7 @@
             <form action="/search.html" class="search-wrapper cf">
                                 <input type="text" placeholder="Enter your mood...
                                 " required="">
-                                <button type="submit"><a href="search-result.html">Search</a></button>
+                                <button type="submit"><a href="search-results.html">Search</a></button>
                              </form>
                 <div class="tag-container">
 
