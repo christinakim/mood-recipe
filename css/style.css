@@ -105,13 +105,13 @@ padding: 10px 5px;
 float: left;
 font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
 border: 0;
-background: #EEE;
+background: #2c3e50;
 border-radius: 3px 0 0 3px;
 }
  
 .search-wrapper input:focus {
     outline: 0;
-    background: #fff;
+    background: #2c3e50;
     box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
 }
  

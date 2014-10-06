@@ -33,7 +33,7 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -42,18 +42,6 @@
                 <a class="navbar-brand" href="#page-top">FoodMood</a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#searchresult">Find a random recipe</a>
-                    </li>
-                 
-                </ul>
-            </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
@@ -76,7 +64,7 @@
             <form action="/search.html" class="search-wrapper cf">
                                 <input type="text" placeholder="Enter your mood...
                                 " required="">
-                                <button type="submit">Search</button>
+                                <button type="submit"><a href="search-result.html">Search</a></button>
                              </form>
                 <div class="tag-container">
 
@@ -86,7 +74,7 @@
                                 <li><a href="#">Spicy</a></li>
 
                                 <li><a href="#">Sharing</a></li>
-                                <li><a href="#">Cozy</a></li>
+                                <li><a href="search-results.html">Cozy</a></li>
                             </ul>
                             <ul class="tags">
 
@@ -111,7 +99,7 @@
             <div class="row">
          
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
+                    <a href="add-recipe.html" class="btn btn-lg btn-outline">
                         <i class="fa fa-cutlery"></i> Submit Recipe
                     </a>
                 </div>
