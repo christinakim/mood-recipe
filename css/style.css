@@ -85,6 +85,12 @@
     clear:both;
 }
  
+
+.bottom-buttons a{
+    text-decoration:none;
+    color:#FFF;
+
+}
 .cf{
     zoom:1;
 }    
